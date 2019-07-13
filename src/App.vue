@@ -1,25 +1,16 @@
 <template>
-  <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <router-view/>
+  <div id="app" class="fillcontain">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import storage from './model/storage.js';
-  console.log(storage);
-export default {
-  name: 'App'
-}
+
+  export default {
+
+  }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less">
+  @import './style/common';
 </style>
