@@ -85,7 +85,6 @@
             }
           })
           .catch( function(error){
-            console.log(123);
             console.log(error);
           });
       }
